@@ -1,12 +1,43 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+.app-block {
+  min-height: 600px;
+  width: 500px;
+  margin: 40px auto;
+}
 
+.todo-outer {
+  background-color: #22cec0;
+}
+.todo-inner {
+  background-color: #123862;
+}
+
+.listItem {
+  background-color: #22cec0;
+  border-radius: 5px;
+  padding: 7px;
+  color: #ffffff;
+}
+.listItem p {
+  margin-bottom: 0;
+  color: #ffffff;
+}
+.listItem p span:hover {
+  cursor: pointer;
+}
+.listItem input {
+  background-color: #22cec0;
+  border: 0;
+  color: #ffffff;
+  min-width: 250px;
+}
+.listItem input:focus {
+  background-color: #22cec0;
+  outline: 0;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
